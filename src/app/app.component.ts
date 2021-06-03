@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'EDIFICIO AVENIDA PAULISTA';
+  title = 'SALA 103 - SLT';
   //item:number;
   //quantidade:number;
   //destino:string;
