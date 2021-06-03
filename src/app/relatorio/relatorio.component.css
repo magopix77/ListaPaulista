@@ -1,0 +1,114 @@
+th{
+  border-color: darkred;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
+th#qtde{
+  width:100px;
+  border-radius: 4px;
+  border-style:solid;
+  text-align: center;
+}
+td.tdqtde{
+  width:100px;
+  border-radius: 4px;
+  border-style:groove;
+
+}
+
+th#item{
+  width:100px;
+  border-radius: 4px;
+  border-style: solid;
+  text-align: center;
+}
+
+td.tditem{
+  width:100px;
+  border-radius: 4px;
+  border-style:groove;
+}
+
+th#destino{
+  width:400px;
+  border-radius: 4px;
+  border-style: solid;
+  text-align: center;
+}
+
+td.tddestino{
+  width:400px;
+  border-radius: 4px;
+  border-style:groove;
+}
+
+th#sala{
+  width:100px;
+  border-radius: 4px;
+  border-style: solid;
+  text-align: center;
+}
+
+td.tdsala{
+  width:100px;
+  border-radius: 4px;
+  border-style:groove;
+}
+th#remete{
+  width:400px;
+  border-radius: 4px;
+  border-style: solid;
+  text-align: center;
+}
+
+td.tdremete{
+  width:400px;
+  border-radius: 4px;
+  border-style:groove;
+}
+th#data{
+  width:200px;
+  border-radius: 4px;
+  border-style: solid;
+  text-align: center;
+}
+
+td.tddata{
+  width:200px;
+  border-radius: 4px;
+  border-style:groove;
+}
+
+th#hora{
+  width:200px;
+  border-radius: 4px;
+  border-style: solid;
+  text-align: center;
+}
+
+td.tdhora{
+  width:200px;
+  border-radius: 4px;
+  border-style:groove;
+}
+
+th#recebe{
+  width:400px;
+  border-radius: 4px;
+  border-style: solid;
+  text-align: center;
+}
+
+td.tdrecebe{
+  width:400px;
+  border-radius: 4px;
+ border-style:groove;
+}
+
+#final{
+  border-style: outset;
+    border-bottom: darkslategrey;
+    width: 100%;
+    font-size: 14px;
+}

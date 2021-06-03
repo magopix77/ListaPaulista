@@ -1,0 +1,48 @@
+<!--<div *ngFor="let mostradados of mostraosdados">
+  <p>Item:  {{mostradados?.item}}</p>
+  <p>Quantidade:  {{mostradados?.quantidade}}</p>
+  <p>Destinatario:  {{mostradados?.destino}}</p>
+  <p>Sala:  {{mostradados?.sala}}</p>
+  <p>Remetente:  {{mostradados?.remete}}</p>
+  <p>Data de entrega:  {{mostradados?.data}}</p>
+  <p>Horario:  {{mostradados?.hora}}</p>
+  <p>Recebedor:  {{mostradados?.recebe}}</p>
+
+</div> -->
+
+
+<div id="dvparaentregar">
+  <table id="tblparaentregar">
+    <thead>
+
+      <th id="qtde">Quantidade</th>
+      <th id="item">Item</th>
+      <th id="destino">Destino</th>
+      <th id="sala">Sala</th>
+      <th id="remete">Remetente</th>
+      <th id="data">Data</th>
+      <th id="hora">Hora</th>
+      <th id="recebe">Recebedor</th>
+
+    </thead>
+
+    <tbody *ngIf="mostraosdados?.length > 0 ; else listavazia">
+      <tr *ngFor="let mostradados of mostraosdados">
+        <td class="tdqtde">{{mostradados.quantidade}}</td>
+        <td class="tditem">{{mostradados.item}}</td>
+        <td class="tddestino">{{mostradados.destino}}</td>
+        <td class="tdsala">{{mostradados.sala}}</td>
+        <td class="tdremete">{{mostradados.remete}}</td>
+        <td class="tddata">{{mostradados.data}}</td>
+        <td class="tdhora">{{mostradados.hora}}</td>
+        <td class="tdrecebe">{{mostradados.recebe}}</td>
+      </tr>
+    </tbody>
+
+  </table>
+</div>
+
+
+<ng-template #listavazia>
+  <p id="final">Nenhum dado inserido ate o momento!</p>
+</ng-template>

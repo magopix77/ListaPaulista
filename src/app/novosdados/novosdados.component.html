@@ -1,0 +1,40 @@
+<div id="itens"></div>
+        <form (ngSubmit)="registrar()">
+
+            <label >Quantidade</label><br>
+            <input type="number" name="txtquantidade"[(ngModel)]="encomenda.quantidade" name='valor'><br>
+
+            <label >Item</label><br>
+            <input type="text" name="txtitem" [(ngModel)]="encomenda.item" name='item'><br>
+
+
+            <label >Destinatário</label><br>
+            <input type="text" name="txtdestinatario"[(ngModel)]="encomenda.destino"name='destino'><br>
+            <label >Sala e Andar</label><br>
+            <input type="text" name="txtsala_e_andar"[(ngModel)]="encomenda.sala"name='sala'><br>
+
+
+            <label >Remetente</label><br>
+            <input type="text" name="txtremetente"[(ngModel)]="encomenda.remete"name='remete'><br>
+
+            <label >Data de entrega</label><br>
+            <input type="date" name="txtdata_de_entrega"[(ngModel)]="encomenda.data"name='data'><br>
+
+            <label >Horário</label><br>
+            <input type="time" name="txthorario"[(ngModel)]="encomenda.hora"name='hora'><br>
+
+            <label >Recebedor</label><br>
+            <input type="text" name="txtrecebedor"[(ngModel)]="encomenda.recebe"name='recebe'><br>
+
+            <br>
+            <button class="btn" type="submit">INSERIR NOVOS DADOS</button>
+            <br>
+
+        </form>
+        <br>
+
+
+
+
+
+<script src="script.js"></script>
